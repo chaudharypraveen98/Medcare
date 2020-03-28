@@ -1,0 +1,153 @@
+.slide1{
+	background-image: url("https://www.incimages.com/uploaded_files/image/1940x900/getty_962094932_385032.jpg");
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide2{
+	background-image: url("http://www.studyinlatvia.in/images/healthcare-bg.jpg");
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide3{
+	background-image: url("https://media-exp1.licdn.com/dms/image/C4E1BAQHONZQGEbkBYA/company-background_10000/0?e=2159024400&v=beta&t=pEi3aHLmiO_tzTfx7eOfjzVQE3UrAc1_XFIVGXC5ZDM");
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-brand{
+	font-family: 'Pacifico',cursive;
+}
+.nav-link{
+	font-family: 'Bangers',cursive;
+}
+.carousel-caption{	
+	font-size: 45px !important;
+}
+.carousel-caption h1{
+	color: #2f89fc !important;
+	margin-bottom: 0px !important;
+	font-weight: 900;
+}
+.carousel-caption h2{
+	color: black !important;
+	margin-bottom: 16px !important;
+	font-weight: 900;
+}
+.right-align{
+	text-align: right !important;
+}
+.left-align{
+	text-align: left !important;
+}
+owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+.subheading{
+	font-family: sans-serif;
+	font-size: 1rem;
+	color: black !important;
+}
+.margin-10{
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+.flexbox-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flexbox-container > div{;
+	width: 300px;
+	margin-top: 100px;
+	border: 2px black solid;
+	margin-right: 30px;
+	text-align: center;
+}
+.define{
+	height: 90px;
+	width: 90px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	background-color:#2f89fc;
+}
+
+.cover{
+	background-image:url("../images/cover.png");
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+	margin: 100px 0px 50px 0px;
+}
+.cover-title{
+	text-align: center;
+}
+.cover-title-head{
+	font-weight: 500;
+	font-size: 48px;
+}
+.cover-title-sm{
+	font-weight: 500;
+	font-size: 36px;
+}
+
+
+.booking{
+	align-items: center;
+}
+.booking-head{
+	font-size: 48px;
+	font-family:'Pacifico', cursive;
+	margin-bottom: 50px;
+}
+.appointment-form{
+	font-size: 24px;
+}
