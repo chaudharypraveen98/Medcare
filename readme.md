@@ -1,6 +1,9 @@
-## **MedCare** - a Healthcare website
+## **MedCare** - a healthcare website
 
-This project is built for the health care organistaion.
+This project is built for the health care organistaion. We had used bootstrap for development. It is a responsive website.
+
+### Web Preview
+<img src="Medcare.PNG" alt="website preview">
 
 ### Technologies :-
 <ul>
