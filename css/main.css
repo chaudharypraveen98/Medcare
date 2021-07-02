@@ -194,3 +194,75 @@ span {
 .footer-utilties>div{
 	margin: 5px 8px;
 }
+/*-- docter collage */
+
+.item1{
+	grid-area: img1;
+	background-image: url("../images/kar.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.item2{
+	grid-area: img2;
+	background-image: url("../images/garg.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.item3{
+	grid-area: img3;
+	background-image: url("../images/kesh.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item4{
+	grid-area: img4;
+	background-image: url("../images/vik.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item5{
+	grid-area: img5;
+	background-image: url("../images/prav.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.item6{
+	grid-area: img6;
+	background-image: url("../images/shad.png");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.item7{
+	grid-area: img7;
+	background-image: url("../images/dosti.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.item8{
+	grid-area: img8;
+	background-image: url("../images/docter.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grid-container{
+	display: grid;
+	grid-template-areas:
+			'img3 img4 img1 img2'
+			'img5 img6 img1 img2'
+			'img8 img8 img1 img2'
+			'img8 img8 img1 img7';
+	grid-gap: 10px;
+	min-height: 800px;
+}
+.docter-head{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Oleo Script', cursive;
+}
